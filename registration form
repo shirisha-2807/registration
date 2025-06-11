@@ -1,0 +1,29 @@
+<html>
+<title>Registration</title>
+<h1>Registration Form</h1>
+<style>
+form{
+text-align:center;
+}
+body{
+background-color:pink;
+padding-border:20px 20px 20px 20px;
+}
+h2{
+text-align:center;
+}
+h1{
+color:blue;
+text-align:center;
+}
+</style>
+<body>
+<form method="post">
+<input type="text" name="name" placeholder="name"> <br> <br>
+<input type="email" name="email" placeholder="email"><br> <br>
+<input type="password" name="password" placeholder="password"><br> <br>
+<input type="submit" value="submit"><br> <br>
+</form>
+<h2>Registration Successful</h2>
+</body>
+</html>2
